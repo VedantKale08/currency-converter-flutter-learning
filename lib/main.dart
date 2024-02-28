@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(const MyApp());
 }
-
+ 
 //Types of widgets
 //1.Stateless widgets
 //2.Stateful widgets
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {  //BuildContext will help us in navigation, localization, etc.
     return const MaterialApp(
-        home:CurrencyConverterPage()
+        home: CurrencyConverterPage()
     );
   }
 }
